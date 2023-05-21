@@ -3,6 +3,7 @@
 :root{
     --blue: #1d1d35;
     --green: #00a86e;
+    --green2: #005a00;
     --white: #f1fcf6;
 }
 
@@ -14,19 +15,15 @@
     list-style: none;
     text-decoration: none;
     color: var(--white);
+    overflow: hidden;
 }
 
 a{
     font-weight: 500;
 }
 
-body{
-    background: black;
-}
-
 header{
     position: fixed;
-    border: solid red;
     right: 0;
     top: 0;
     z-index: 1;
@@ -70,4 +67,30 @@ header{
     cursor: pointer;
     z-index: 2;
     display: none;
+}
+
+section{
+    padding: 0 80px;
+}
+
+/* hero section */
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5em;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(0,51,28,1) 0%, rgba(0,90,34,1) 50%, rgba(0,51,28,1) 100%); 
+    position: relative;
+}
+
+.hero-image{
+    width: 80%;
+}
+
+.hero-image img{
+    width: 100%;
+    filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.8)); 
 }
