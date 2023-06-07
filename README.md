@@ -12,3 +12,6 @@ La finalidad de este sitio web será poner en práctica mis conocimientos adquir
 - Git Y Github
 - Emulador de Gameboy Advance Online
 
+## Vista Previa
+
+![cover](./Pokemon-Emerald-Responsive.png "Project Cover")

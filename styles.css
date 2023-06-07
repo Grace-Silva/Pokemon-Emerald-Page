@@ -50,7 +50,7 @@ header{
     font-size: 2.2rem;
     font-family: "Pokemon Solid";
     color: #ffcd00;
-    -webkit-text-stroke: 1px #0D418C;
+    -webkit-text-stroke: 2px #0D418C;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.435);
 }
 
